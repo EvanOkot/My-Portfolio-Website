@@ -1,0 +1,107 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 32px;
+    color: #333;
+}
+
+.description {
+    font-size: 18px;
+    color: #0f0e0ee3;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 5%;
+  }
+  
+  nav ul li {
+    display: inline; 
+    margin-right: 10px; 
+    margin: 0 15px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none; 
+    color: #0e0d0d;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    color: #e70280;
+    background-color: #14a3a8ce;
+    border-radius: 15px;
+  }
+ 
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+  body {
+    background-image: url('images/OIP\ 2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rounded-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+a i {
+    color: #eff4fa;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.hover-zoom {
+  display: inline-block;
+  font-size: 16px; /* Set the initial font size */
+  transition: font-size 0.3s; /* Add a transition effect for font size */
+}
+
+.hover-zoom:hover {
+  font-size: 20px; /* Increase the font size on hover */
+}
+
+h1 {
+  text-align: center;
+  font-weight: 1000;
+  font-display: 500px;
+  color: #0e0d0d;
+}
+
+
+
+
+
+
+
